@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Hash;
+
 /*
 |--------------------------------------------------------------------------
 | Model Factories
@@ -11,9 +13,20 @@
 |
 */
 
-$factory->define(App\User::class, function (Faker\Generator $faker) {
-    return [
-        'name' => $faker->name,
-        'email' => $faker->email,
-    ];
+// Las clases que se metan acá deben estar importadas en DatabaseSeeder
+$factory->define(App\Rol::class, function (Faker\Generator $faker) {
+	return [
+		'nombre' => $faker->randomElement($array = ['Administrador', 'Profesor', 'Alumno'])
+	];
+});
+
+$factory->define(App\Usuario::class, function (Faker\Generator $faker) {
+	return [
+		'nombre' => $faker->firstName,
+		'appaterno' => $faker->lastName,
+		'apmaterno' => $faker->lastName,
+		'email' => $faker->email,
+		'username' => $faker->username,
+		'password' => Hash::make('pass')
+	];
 });

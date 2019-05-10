@@ -21,7 +21,7 @@ class UsuarioMigration extends Migration
 			$table->string('email')->unique();
 			$table->string('username')->unique();
 			$table->string('password');
-			$table->string('api_token', 60)->unique();
+			$table->string('api_token', 60)->unique()->nullable();
 			$table->rememberToken();
 			$table->timestamps();
 		});

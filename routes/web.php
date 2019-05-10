@@ -14,3 +14,7 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->get('/ver', function () {
+	return array_rand(array_flip(range(1, 3)), 2);
+});

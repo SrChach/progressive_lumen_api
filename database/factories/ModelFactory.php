@@ -27,6 +27,7 @@ $factory->define(App\Usuario::class, function (Faker\Generator $faker) {
 		'apmaterno' => $faker->lastName,
 		'email' => $faker->email,
 		'username' => $faker->username,
-		'password' => Hash::make('pass')
+		'password' => Hash::make('pass'),
+		'api_token' => str_random(60)
 	];
 });

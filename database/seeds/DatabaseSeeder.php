@@ -33,16 +33,6 @@ class DatabaseSeeder extends Seeder
 					->roles()
 					->attach( array_rand(array_flip(range(1, 3)), 2) );
 			});
-/*
-		factory(Rol::class, 15)
-			->create()
-			->each(function($rol){
-				// Para cada rol credo, asigna "n" permisos (n es el segundo param de array_rand)
-				$rol
-					->permisos()
-					->attach( array_rand(range(1, 15), 2) );
-			});
-*/
 
     }
 }

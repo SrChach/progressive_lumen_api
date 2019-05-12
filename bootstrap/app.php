@@ -61,10 +61,12 @@ $app->singleton(
 //     App\Http\Middleware\ExampleMiddleware::class
 // ]);
 
-// con que acá se defin+ia el puto middleware de mierda
+// con que acá se definía el puto middleware
 $app->routeMiddleware([
 	'auth' => App\Http\Middleware\Authenticate::class,
-	'admin' => App\Http\Middleware\Administrador::class
+	'admin' => App\Http\Middleware\Administrador::class,
+	'profesor' => App\Http\Middleware\Profesor::class,
+	'alumno' => App\Http\Middleware\Alumno::class
 ]);
 
 /*
@@ -79,7 +81,7 @@ $app->routeMiddleware([
 */
 
 // $app->register(App\Providers\AppServiceProvider::class);
-$app->register(App\Providers\AuthServiceProvider::class);
+// $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
 
 /*

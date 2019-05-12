@@ -5,7 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use App\Providers\AuthCheckProvider;
 
-class Administrador
+class Profesor
 {
 	
 	/**
@@ -26,7 +26,7 @@ class Administrador
 	 */
 	public function handle($request, Closure $next, $guard = null)
 	{
-		$checked = AuthCheckProvider::hasRole($request, 1);
+		$checked = AuthCheckProvider::hasRole($request, 2);
 		if($checked['error'] != false)
 			return response()->json([ 'error' => $checked['error'] ], $checked['code'] );
 

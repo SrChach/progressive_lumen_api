@@ -32,6 +32,20 @@ $router->group(['middleware' => ['admin'] ], function () use ($router){
 	});
 });
 
+// Las acciones que requieran permisos de profesor irán acá
+$router->group(['middleware' => ['profesor'] ], function () use ($router){
+	$router->get('/profesor', function(){
+		return "pasado";
+	});
+});
+
+// Las acciones que requieran permisos de alumno irán acá
+$router->group(['middleware' => ['alumno'] ], function () use ($router){
+	$router->get('/alumno', function(){
+		return "pasado";
+	});
+});
+
 
 /*
 	// usado para generar la API key

@@ -63,7 +63,7 @@ $app->singleton(
 
 // con que acá se definía el puto middleware
 $app->routeMiddleware([
-	'auth' => App\Http\Middleware\Authenticate::class,
+	// 'auth' => App\Http\Middleware\Authenticate::class,
 	'admin' => App\Http\Middleware\Administrador::class,
 	'profesor' => App\Http\Middleware\Profesor::class,
 	'alumno' => App\Http\Middleware\Alumno::class

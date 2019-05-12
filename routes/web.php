@@ -12,18 +12,10 @@
 */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    return "RESTful API under build";
 });
 
 $router->post('/login', [ 'uses' => 'UsuariosController@getToken' ]);
-
-$router->post('/query', 'UsuariosController@rol');
-
-$router->group(['middleware' => ['auth'] ], function () use ($router){
-	$router->get('/usr', function(){
-		return "pasado";
-	});
-});
 
 // Las acciones que requieran permisos de Admin irán acá
 $router->group(['middleware' => ['admin'] ], function () use ($router){
@@ -45,11 +37,3 @@ $router->group(['middleware' => ['alumno'] ], function () use ($router){
 		return "pasado";
 	});
 });
-
-
-/*
-	// usado para generar la API key
-	$router->get('/key', function () {
-		return str_random(32);
-	});
-*/

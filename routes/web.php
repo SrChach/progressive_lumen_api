@@ -15,14 +15,16 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/login', [ 'uses' => 'UsuariosController@getToken' ]);
+$router->post('/login', [ 'uses' => 'UsuariosController@getToken' ]);
 
+$router->post('/query', 'UsuariosController@rol');
 
-/*
 $router->group(['middleware' => ['auth'] ], function () use ($router){
-	$router->get('/usuarios', "UsersController@index");
-	$router->post('/usuarios', "UsersController@store");	
+	$router->get('/usr', function(){
+		return "pasado";
+	});
 });
+/*
 
 
 $router->get('/', function () use ($router) {

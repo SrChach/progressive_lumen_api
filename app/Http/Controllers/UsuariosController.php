@@ -18,6 +18,27 @@ class UsuariosController extends Controller
 		
 	}
 
+	// saber si un usuario es administrador
+	public function rol(Request $request){
+		// $request->json()->all()['api_token'];
+		$token = $request->json()->get('api_token');
+
+		$usuario = Usuario::where('api_token', $token)->first();
+		if(!$usuario)
+			return response()->json(['error' => "Token inválido"], 406);
+
+		$roles_usuario = $usuario->roles;
+		if(!$roles_usuario)
+			return response()->json(['error' => 'sin permisos'], 401);
+
+		foreach ($roles_usuario as $value)
+			if ($value->id == 1)
+				return response()->json(['content' => "el usuario tiene rol de administrador"], 200);
+
+		return response()->json(["error" => "no tienes los permisos necesarios"], 401);
+
+	}
+
 	/*
 		public function index(Request $request){
 			// requiere peticiones en JSON

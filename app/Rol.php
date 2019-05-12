@@ -29,7 +29,7 @@ class Rol extends Model implements AuthenticatableContract, AuthorizableContract
 	 * @var array
 	 */
 	protected $hidden = [
-		
+		'created_at', 'updated_at', 'pivot'
 	];
 
 	public function Usuarios(){

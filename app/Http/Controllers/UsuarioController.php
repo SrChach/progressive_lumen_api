@@ -6,7 +6,7 @@ use App\Usuario;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
-class UsuariosController extends Controller
+class UsuarioController extends Controller
 {
 	/**
 	 * Create a new controller instance.
@@ -51,14 +51,12 @@ class UsuariosController extends Controller
 	public function getToken(Request $request){
 		$data = $request->all();
 
-		return response()->json(Usuario::first(), 200);
-
 		$user = Usuario::where('username', $data['username'])->first();
 		if(!$user)
 			return response()->json(['error' => 'user not found'], 406);
 
 		if($user && Hash::check($data['password'], $user->password)){
-			return response()->json(['content' => ['status' => 'successful', 'api_token' => $user->api_token] ], 200);
+			return response()->json(['content' => ['status' => 'successful', 'api_token' => $user->api_token, 'roles' => $user->roles] ], 200);
 		}
 
 		return response()->json(['error' => 'Password incorrect'], 406);

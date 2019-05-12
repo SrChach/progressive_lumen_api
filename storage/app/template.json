@@ -1,0 +1,16 @@
+{
+	"ejemplo": "shidori",
+	"content": {
+		"uno": "te digo",
+		"will_change_1": "codified_content",
+		"will_change_2": "codified_content",
+		"Sujeto": {
+			"firma": "",
+			"will_change_3": "codified_content",
+			"cargo": ""
+		},
+		"numeros": [
+			32, 2, 54, 12
+		]
+	}
+}

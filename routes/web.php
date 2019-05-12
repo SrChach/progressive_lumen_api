@@ -24,17 +24,18 @@ $router->group(['middleware' => ['auth'] ], function () use ($router){
 		return "pasado";
 	});
 });
+
+// Las acciones que requieran permisos de Admin irán acá
+$router->group(['middleware' => ['admin'] ], function () use ($router){
+	$router->get('/admin', function(){
+		return "pasado";
+	});
+});
+
+
 /*
-
-
-$router->get('/', function () use ($router) {
-    return $router->app->version();
-});
-
-// usado para generar la API key
-$router->get('/key', function () {
-	return str_random(32);
-});
-
-
+	// usado para generar la API key
+	$router->get('/key', function () {
+		return str_random(32);
+	});
 */

@@ -1,0 +1,654 @@
+{
+  "content": [
+    {
+      "table": {
+        "headerRows": 1,
+        "widths": [
+          "*",
+          "auto",
+          "*"
+        ],
+        "body": [
+          [
+            {
+              "style": "tableHeader",
+              "colSpan": 2,
+              "alignment": "left",
+              "bold": true,
+              "text": "Servicio 1 ejemplo"
+            },
+            null,
+            {
+              "style": [
+                "tableHeader",
+                "small"
+              ],
+              "alignment": "right",
+              "text": "Fecha: 2049/01/01"
+            }
+          ],
+          [
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "algo\n"
+                },
+                "shido"
+              ]
+            },
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "otracosa\n"
+                },
+                "otracosa shida"
+              ]
+            },
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "nasho\n"
+                },
+                "es shido c:"
+              ]
+            }
+          ],
+          [
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "tugfa\n"
+                },
+                "es chida"
+              ]
+            },
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "nmms\n"
+                },
+                "que chido!"
+              ]
+            },
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "hola\n"
+                },
+                "men c:"
+              ]
+            }
+          ],
+          [
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "quiero\n"
+                },
+                "gashetas c:"
+              ]
+            },
+            null,
+            null
+          ]
+        ]
+      },
+      "layout": "lightHorizontalLines"
+    },
+    {
+      "table": {
+        "widths": [
+          "*"
+        ],
+        "body": [
+          [
+            " "
+          ],
+          [
+            " "
+          ]
+        ]
+      },
+      "layout": {}
+    },
+    {
+      "columns": [
+        {
+          "width": "*",
+          "text": ""
+        },
+        {
+          "table": {
+            "headerRows": 1,
+            "widths": [
+              "*",
+              "auto",
+              "*"
+            ],
+            "body": [
+              [
+                {
+                  "style": "tableHeader",
+                  "colSpan": 2,
+                  "alignment": "left",
+                  "bold": true,
+                  "text": "Servicios realizados"
+                },
+                null,
+                {
+                  "style": [
+                    "tableHeader",
+                    "small"
+                  ],
+                  "alignment": "right",
+                  "text": "Fecha: 2049/01/01"
+                }
+              ],
+              [
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "numero\n"
+                    },
+                    "12"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "concepto\n"
+                    },
+                    "comida del jefe xD"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "cantidad\n"
+                    },
+                    "9999"
+                  ]
+                }
+              ],
+              [
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "numero\n"
+                    },
+                    "1"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "concepto\n"
+                    },
+                    "Alta de baja tension 3 hilos"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "cantidad\n"
+                    },
+                    "5"
+                  ]
+                }
+              ],
+              [
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "numero\n"
+                    },
+                    "2"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "concepto\n"
+                    },
+                    "Bajada de electricidad bisn shida xD"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "cantidad\n"
+                    },
+                    "1"
+                  ]
+                }
+              ],
+              [
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "numero\n"
+                    },
+                    "3"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "concepto\n"
+                    },
+                    "ejemplo"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "cantidad\n"
+                    },
+                    "9999"
+                  ]
+                }
+              ],
+              [
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "numero\n"
+                    },
+                    "4"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "concepto\n"
+                    },
+                    "ejemplo"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "cantidad\n"
+                    },
+                    "9999"
+                  ]
+                }
+              ],
+              [
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "numero\n"
+                    },
+                    "5"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "concepto\n"
+                    },
+                    "ejemplo"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "cantidad\n"
+                    },
+                    "9999"
+                  ]
+                }
+              ]
+            ]
+          },
+          "width": "auto"
+        },
+        {
+          "width": "*",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "table": {
+        "widths": [
+          "*"
+        ],
+        "body": [
+          [
+            " "
+          ],
+          [
+            " "
+          ]
+        ]
+      },
+      "layout": {}
+    },
+    {
+      "table": {
+        "widths": [
+          "*"
+        ],
+        "body": [
+          [
+            " "
+          ],
+          [
+            " "
+          ]
+        ]
+      },
+      "layout": {}
+    },
+    {
+      "table": {
+        "headerRows": 1,
+        "widths": [
+          "*",
+          "auto",
+          "*"
+        ],
+        "body": [
+          [
+            {
+              "style": "tableHeader",
+              "colSpan": 2,
+              "alignment": "left",
+              "bold": true,
+              "text": "Servicio 2 ejemplo"
+            },
+            null,
+            {
+              "style": [
+                "tableHeader",
+                "small"
+              ],
+              "alignment": "right",
+              "text": "Fecha: 2049/01/01"
+            }
+          ],
+          [
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "jeader\n"
+                },
+                "uno"
+              ]
+            },
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "sdahk\n"
+                },
+                "baia"
+              ]
+            },
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "ke\n"
+                },
+                "ase"
+              ]
+            }
+          ],
+          [
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "objeto\n"
+                },
+                "variable"
+              ]
+            },
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "comida\n"
+                },
+                "no hay :C"
+              ]
+            },
+            {
+              "alignment": "center",
+              "text": [
+                {
+                  "bold": true,
+                  "text": "dinero\n"
+                },
+                "tampoco"
+              ]
+            }
+          ]
+        ]
+      },
+      "layout": "lightHorizontalLines"
+    },
+    {
+      "table": {
+        "widths": [
+          "*"
+        ],
+        "body": [
+          [
+            " "
+          ],
+          [
+            " "
+          ]
+        ]
+      },
+      "layout": {}
+    },
+    {
+      "columns": [
+        {
+          "width": "*",
+          "text": ""
+        },
+        {
+          "table": {
+            "headerRows": 1,
+            "widths": [
+              "*",
+              "auto",
+              "*"
+            ],
+            "body": [
+              [
+                {
+                  "style": "tableHeader",
+                  "colSpan": 2,
+                  "alignment": "left",
+                  "bold": true,
+                  "text": "Servicios realizados"
+                },
+                null,
+                {
+                  "style": [
+                    "tableHeader",
+                    "small"
+                  ],
+                  "alignment": "right",
+                  "text": "Fecha: 2049/01/01"
+                }
+              ],
+              [
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "numero\n"
+                    },
+                    "12"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "concepto\n"
+                    },
+                    "Puesta de medidor"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "cantidad\n"
+                    },
+                    "71"
+                  ]
+                }
+              ],
+              [
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "numero\n"
+                    },
+                    "1"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "concepto\n"
+                    },
+                    "Bajada de alta tension, 2 hilos"
+                  ]
+                },
+                {
+                  "alignment": "center",
+                  "text": [
+                    {
+                      "bold": true,
+                      "text": "cantidad\n"
+                    },
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          },
+          "width": "auto"
+        },
+        {
+          "width": "*",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "table": {
+        "widths": [
+          "*"
+        ],
+        "body": [
+          [
+            " "
+          ],
+          [
+            " "
+          ]
+        ]
+      },
+      "layout": {}
+    },
+    {
+      "table": {
+        "widths": [
+          "*"
+        ],
+        "body": [
+          [
+            " "
+          ],
+          [
+            " "
+          ]
+        ]
+      },
+      "layout": {}
+    }
+  ],
+  "styles": {
+    "quote": {
+      "italics": true
+    },
+    "small": {
+      "fontSize": 8
+    }
+  }
+}

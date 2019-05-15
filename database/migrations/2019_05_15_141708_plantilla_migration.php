@@ -6,27 +6,27 @@ use Illuminate\Database\Migrations\Migration;
 
 class PlantillaMigration extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('plantillas', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('archivo')->unique();
-            $table->timestamps();
-        });
-    }
+	/**
+	 * Run the migrations.
+	 *
+	 * @return void
+	 */
+	public function up()
+	{
+		Schema::create('plantillas', function (Blueprint $table) {
+			$table->bigIncrements('id');
+			$table->string('archivo')->unique();
+			$table->timestamps();
+		});
+	}
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('plantillas');
-    }
+	/**
+	 * Reverse the migrations.
+	 *
+	 * @return void
+	 */
+	public function down()
+	{
+		Schema::dropIfExists('plantillas');
+	}
 }

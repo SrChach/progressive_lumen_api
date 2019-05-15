@@ -8,6 +8,9 @@ $router->get('/', function () use ($router) {
 	return "RESTful API under build";
 });
 
+$router->get('/plantillas', 'PlantillaController@index');
+$router->post('/plantillas', 'PlantillaController@store');
+
 $router->post('/login', 'UsuarioController@getToken');
 
 // Las acciones que requieran permisos de Admin irán acá

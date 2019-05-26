@@ -8,11 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
 
-class Campo extends Model implements AuthenticatableContract, AuthorizableContract
+class Plantillacampo extends Model implements AuthenticatableContract, AuthorizableContract
 {
 	use Authenticatable, Authorizable;
 
-	protected $table = 'plantillas';
+	protected $table = 'plantillacampos';
 
 	/**
 	 * The attributes that are mass assignable.

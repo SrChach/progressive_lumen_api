@@ -15,11 +15,12 @@ class DocumentoMigration extends Migration
 	{
 		Schema::create('documentos', function (Blueprint $table) {
 			$table->bigIncrements('id');
-			$table->string('contenido')->nullable();
-			$table->bigInteger('campo_id')->unsigned();
-			$table->foreign('campo_id')->references('id')->on('campos');
+			$table->string('titulo')->nullable();
+			$table->string('descripcion')->nullable();
+			$table->bigInteger('plantilla_id')->unsigned();
+			$table->foreign('plantilla_id')->references('id')->on('plantillas');
 			$table->bigInteger('usuario_id')->unsigned();
-			$table->foreign('usuario_id')->references('id')->on('usuarios'); // el que lo creó
+			$table->foreign('usuario_id')->references('id')->on('usuarios');
 			$table->timestamps();
 		});
 	}

@@ -20,7 +20,7 @@ class Plantilla extends Model implements AuthenticatableContract, AuthorizableCo
 	 * @var array
 	 */
 	protected $fillable = [
-		'id', 'archivo'
+		'id', 'archivo', 'nombre'
 	];
 
 	/**

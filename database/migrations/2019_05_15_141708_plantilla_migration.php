@@ -16,6 +16,7 @@ class PlantillaMigration extends Migration
 		Schema::create('plantillas', function (Blueprint $table) {
 			$table->bigIncrements('id');
 			$table->string('archivo')->unique();
+			$table->string('nombre');
 			$table->timestamps();
 		});
 	}

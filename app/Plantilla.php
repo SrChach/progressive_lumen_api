@@ -32,9 +32,7 @@ class Plantilla extends Model implements AuthenticatableContract, AuthorizableCo
 
 	];
 	
-	/*
-	public function Campos(){
-		return $this->hasMany('App\Campo');
+	public function Plantillacampos(){
+		return $this->hasMany('App\Plantillacampo');
 	}
-	*/
 }

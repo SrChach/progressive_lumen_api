@@ -62,7 +62,7 @@ class PlantillaController extends Controller
 		]);
 
 		if(!$plantilla){
-			// borrar el archivo creado arriba...
+			unlink($uploaded);
 			return $this->error_response('No se pudo crear la plantilla', 401);
 		}
 

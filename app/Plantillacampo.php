@@ -20,7 +20,7 @@ class Plantillacampo extends Model implements AuthenticatableContract, Authoriza
 	 * @var array
 	 */
 	protected $fillable = [
-		'id', 'palabraClave', 'vecesRepite', 'isImage'
+		'id', 'palabraClave', 'nombreCampo', 'vecesRepite', 'isImage', 'plantilla_id' // remover el ultimo
 	];
 
 	/**
@@ -32,9 +32,8 @@ class Plantillacampo extends Model implements AuthenticatableContract, Authoriza
 		'id'
 	];
 	
-	/*
-	public function Campos(){
-		return $this->hasMany('App\Campo');
+	public function Plantillas(){
+		return $this->balongsTo('App\Plantilla');
 	}
-	*/
+	
 }
